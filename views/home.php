@@ -1,0 +1,9 @@
+<?php
+/** @var $this \grimm1994\grimmCore\View */
+
+$this->title = 'Home';
+?>
+
+<h1>Home</h1>
+
+<h3>Welcome <?= $name ?></h3>

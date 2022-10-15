@@ -1,0 +1,18 @@
+{
+    "name": "grimm994/grimm-framework",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "Grigory Mytarev",
+            "email": "grimm250894@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "grimm1994/grimm-core": "^1.0"
+    }
+}
