@@ -1,5 +1,5 @@
 {
-    "name": "grimm994/grimm-framework",
+    "name": "grimm1994/grimm-framework",
     "autoload": {
         "psr-4": {
             "app\\": "./"
