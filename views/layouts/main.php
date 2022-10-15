@@ -31,9 +31,6 @@ use grimm1994\grimmCore\Application;
                     <a class="nav-link active" aria-current="page"
                        href="/">Home</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
-                </li>
             </ul>
             <?php if (Application::isGuest()): ?>
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
