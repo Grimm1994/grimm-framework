@@ -9,4 +9,4 @@ $this->title = 'Home';
 
 <h1>Home</h1>
 
-<h3>Welcome <?= $name ?></h3>
+<h3>Welcome to <?= $name ?></h3>

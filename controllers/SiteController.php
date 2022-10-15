@@ -12,7 +12,7 @@ class SiteController extends Controller
     public function home(): string
     {
         $params = [
-            'name' => 'Grimm Framework',
+            'name' => 'Grimm framework',
         ];
 
         return $this->render('home', $params);
