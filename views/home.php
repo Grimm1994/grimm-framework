@@ -1,5 +1,8 @@
 <?php
-/** @var $this \grimm1994\grimmCore\View */
+/**
+ * @var $this \grimm1994\grimmCore\View
+ * @var $name
+ */
 
 $this->title = 'Home';
 ?>
