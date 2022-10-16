@@ -7,7 +7,7 @@
 $this->title = 'Register';
 ?>
 
-    <h1>Create an account</h1>
+    <h1 class="mb-5">Create an account</h1>
 <?php $form = \grimm1994\grimmCore\form\Form::begin('', 'post'); ?>
     <div class="row">
         <div class="col">

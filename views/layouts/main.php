@@ -58,7 +58,7 @@ use grimm1994\grimmCore\Application;
     </div>
 </nav>
 
-<div class="container">
+<div class="container mb-5 mt-5">
     <?php
     if (Application::$app->session->getFlash('success')): ?>
         <div class="alert alert-success mt-3">
