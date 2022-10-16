@@ -31,8 +31,12 @@ $app->router->get('/', [SiteController::class, 'home']);
 
 $app->router->get('/login', [AuthController::class, 'login']);
 $app->router->post('/login', [AuthController::class, 'login']);
+$app->router->get('/login/{id}', [AuthController::class, 'login']);
+$app->router->get('/login/{id:\d+}/{username}', [AuthController::class, 'login']);
 $app->router->get('/register', [AuthController::class, 'register']);
 $app->router->post('/register', [AuthController::class, 'register']);
 $app->router->get('/logout', [AuthController::class, 'logout']);
+
+$app->router->get('/profile/{id:\d+}/{username}', [AuthController::class, 'profile']);
 
 $app->run();

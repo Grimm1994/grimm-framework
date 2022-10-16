@@ -19,6 +19,10 @@ class AuthController extends Controller
 
     public function login(Request $request, Response $response): string
     {
+        echo '<pre>';
+        var_dump($request->getRouteParams());
+        echo '</pre>';
+
         $loginForm = new LoginForm();
         if ($request->isPost()) {
             $loginForm->loadData($request->getBody());
