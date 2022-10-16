@@ -38,7 +38,7 @@ services:
   db:
     image: mysql:8.0
     volumes:
-      - ./_docker/db:/var/lib/mysql
+      - mysql-data:/var/lib/mysql
     environment:
       MYSQL_DATABASE: grimm-framework
       MYSQL_ROOT_PASSWORD: root
@@ -48,6 +48,9 @@ services:
     container_name: grimm-framework_db
     networks:
       - internal
+
+volumes:
+  mysql-data: {}
 
 networks:
   external:
